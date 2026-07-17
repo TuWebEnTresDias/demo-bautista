@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAUTISTA | Bar & Café en Belgrano Norte, Buenos Aires</title>
+    <meta name="description" content="Bar de barrio en Belgrano Norte. Desayunos, almuerzos y cena con la mejor onda. Monroe 2702, Buenos Aires.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#hero" class="header__logo">
+                <span class="logo-b">B</span>
+                <span class="logo-text">BAUTISTA</span>
+            </a>
+            <nav class="header__nav">
+                <a href="#menu">Menú</a>
+                <a href="#galeria">Galería</a>
+                <a href="#momentos">Momentos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <a href="https://wa.me/5491168722702?text=Hola%20Bautista%2C%20quiero%20hacer%20una%20reserva" class="header__cta">
+                Reservar
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="#menu">Menú</a>
+            <a href="#galeria">Galería</a>
+            <a href="#momentos">Momentos</a>
+            <a href="#contacto">Contacto</a>
+            <a href="https://wa.me/5491168722702?text=Hola%20Bautista%2C%20quiero%20hacer%20una%20reserva" class="header__cta mobile-cta">Reservar</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWniSu2Odi3k7lwI3NOdU7klj_ARLfHn55-81A-Qk1svbtN71Q1QOIseXElzvIcFinMYWNWq7rOpIqsHEAXGPtiYeOwQFf2sTnxPyegwTNrW6ecZ6LvPgYeE7WvOAp_HYKMnnD1c=s1360-w1360-h1020-rw" alt="BAUTISTA Bar & Café" loading="eager">
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <span class="hero__tag anim-fade-in">Bar & Café · Belgrano Norte</span>
+            <h1 class="hero__title anim-fade-in-up">
+                <span class="hero__title-line">El bar del barrio</span>
+                <span class="hero__title-line hero__title-accent">que se modernizó</span>
+                <span class="hero__title-line">sin perder la onda.</span>
+            </h1>
+            <p class="hero__subtitle anim-fade-in-up">
+                De la mañana a la noche, en Monroe 2702. Cafecito, milanesa, birra y buena compañía. 
+                Así de simple, así de bueno.
+            </p>
+            <div class="hero__actions anim-fade-in-up">
+                <a href="#menu" class="btn btn--primary">Ver el menú</a>
+                <a href="https://wa.me/5491168722702?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Bautista" class="btn btn--secondary">Reservar mesa</a>
+            </div>
+            <div class="hero__rating anim-fade-in-up">
+                <span class="stars">★★★★<span class="star-half">☆</span></span>
+                <span class="rating-text">4.2</span>
+                <span class="rating-count">(623 reseñas)</span>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Diferenciales -->
+    <section class="diferenciales" id="diferenciales">
+        <div class="container">
+            <div class="section-header anim-fade-in">
+                <span class="section-tag">Por qué elegirnos</span>
+                <h2 class="section-title">Tres cosas que nos definen</h2>
+            </div>
+            <div class="diferenciales__grid">
+                <div class="diferencial anim-fade-in-up">
+                    <div class="diferencial__icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M24 4v40M4 24h40M12 12l24 24M36 12L12 36"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial__title">Cocina real, no congelados</h3>
+                    <p class="diferencial__text">Papas caseras, milanesas de la casa, empanadas al horno. Nada de industrial congelado que otro te caliente.</p>
+                </div>
+                <div class="diferencial anim-fade-in-up" style="animation-delay: 0.1s">
+                    <div class="diferencial__icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="24" cy="24" r="20"/>
+                            <path d="M24 14v10l7 7"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial__title">De 7 a 24, todos los días</h3>
+                    <p class="diferencial__text">Abierto de lunes a domingo. Desayuno a la mañana, almuerzo al mediodía, birra a la noche. Siempre hay un lugar.</p>
+                </div>
+                <div class="diferencial anim-fade-in-up" style="animation-delay: 0.2s">
+                    <div class="diferencial__icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 36V12a4 4 0 014-4h16a4 4 0 014 4v24"/>
+                            <path d="M8 36h32"/>
+                            <circle cx="24" cy="20" r="6"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial__title">El menú ejecutivo más completo</h3>
+                    <p class="diferencial__text">Con bebida y postre incluido. Por eso dicen que no tiene rival: calidad, precio y variedad en un solo plato.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header anim-fade-in">
+                <span class="section-tag">Nuestro menú</span>
+                <h2 class="section-title">Lo que nos hace bien</h2>
+                <p class="section-subtitle">Elegí por categoría. Todo hecho en casa, nada de atajos.</p>
+            </div>
+            
+            <div class="menu__tabs anim-fade-in">
+                <button class="menu__tab active" data-tab="entradas">Entradas</button>
+                <button class="menu__tab" data-tab="pastas">Pastas</button>
+                <button class="menu__tab" data-tab="milanesas">Milanesas</button>
+                <button class="menu__tab" data-tab="carnes">Carnes</button>
+                <button class="menu__tab" data-tab="sandwich">Sándwich</button>
+                <button class="menu__tab" data-tab="ensaladas">Ensaladas</button>
+                <button class="menu__tab" data-tab="postres">Postres</button>
+                <button class="menu__tab" data-tab="bebidas">Bebidas</button>
+            </div>
+
+            <!-- Entradas -->
+            <div class="menu__category active" id="tab-entradas">
+                <div class="menu__grid">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Empanada de carne</h3>
+                            <span class="menu__item-price">$2.000</span>
+                        </div>
+                        <p class="menu__item-desc">Empanada rellena de carne, cocida al horno.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Empanada de pollo</h3>
+                            <span class="menu__item-price">$2.000</span>
+                        </div>
+                        <p class="menu__item-desc">Empanada rellena de pollo, perfecta como entrada o snack.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Empanada de jamón y queso</h3>
+                            <span class="menu__item-price">$2.000</span>
+                        </div>
+                        <p class="menu__item-desc">Masa de pastelería rellena con trozos de jamón cocido y una mezcla de quesos derretidos.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Tarta individual de verdura</h3>
+                            <span class="menu__item-price">$9.000</span>
+                        </div>
+                        <p class="menu__item-desc">Tarta individual con relleno de espinacas y masa crujiente.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Tarta individual de jamón y queso</h3>
+                            <span class="menu__item-price">$9.000</span>
+                        </div>
+                        <p class="menu__item-desc">Tarta individual con relleno de jamón y queso.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Tarta individual de choclo</h3>
+                            <span class="menu__item-price">$9.000</span>
+                        </div>
+                        <p class="menu__item-desc">Tarta individual con relleno de choclo y huevos.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Papas cheddar y bacon</h3>
+                            <span class="menu__item-price">$2.000</span>
+                        </div>
+                        <p class="menu__item-desc">Porción de papas con cheddar y bacon.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Bocadillos de acelga</h3>
+                            <span class="menu__item-price">$8.000</span>
+                        </div>
+                        <p class="menu__item-desc">6 bocadillos de acelga acompañado con salsa de tomate.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Rabas fritas</h3>
+                            <span class="menu__item-price">$24.000</span>
+                        </div>
+                        <p class="menu__item-desc">Rabas fritas rebozadas, servidas con rodajas de limón y salsa.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Papas fritas</h3>
+                            <span class="menu__item-price">$16.000</span>
+                        </div>
+                        <p class="menu__item-desc">Papas fritas crujientes, ideales como acompañamiento.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastas -->
+            <div class="menu__category" id="tab-pastas">
+                <div class="menu__grid">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Canelones de verdura</h3>
+                            <span class="menu__item-price">$12.000</span>
+                        </div>
+                        <p class="menu__item-desc">Ricota y espinaca, salsa a elección.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Ravioles de pollo y verdura</h3>
+                            <span class="menu__item-price">$12.000</span>
+                        </div>
+                        <p class="menu__item-desc">Ravioles rellenos de pollo y verdura, servidos con salsa de tomate.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Sorrentinos jamón y queso</h3>
+                            <span class="menu__item-price">$15.000</span>
+                        </div>
+                        <p class="menu__item-desc">Sorrentinos rellenos de jamón y queso, servidos con salsa de tomate y queso rallado.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Ñoquis de papa</h3>
+                            <span class="menu__item-price">$10.000</span>
+                        </div>
+                        <p class="menu__item-desc">Ñoquis de papa con salsa a elección: blanca, rosa o mixta.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Milanesas -->
+            <div class="menu__category" id="tab-milanesas">
+                <div class="menu__grid">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Milanesa fugazzetta</h3>
+                            <span class="menu__item-price">$16.000</span>
+                        </div>
+                        <p class="menu__item-desc">Milanesa de ternera o suprema con muzzarella, cebolla y orégano.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Milanesa napolitana</h3>
+                            <span class="menu__item-price">$18.000</span>
+                        </div>
+                        <p class="menu__item-desc">Milanesa a elección con salsa de tomate, jamón, queso y rodajas de tomate. Acompañada de papas fritas y limón.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Milanesa cheddars</h3>
+                            <span class="menu__item-price">$18.000</span>
+                        </div>
+                        <p class="menu__item-desc">Milanesa de ternera o suprema, cheddar y bacon.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Milanesa a caballo</h3>
+                            <span class="menu__item-price">$16.000</span>
+                        </div>
+                        <p class="menu__item-desc">Milanesa de ternera o suprema con dos huevos fritos y papas fritas como guarnición.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Milanesa capresse</h3>
+                            <span class="menu__item-price">$18.000</span>
+                        </div>
+                        <p class="menu__item-desc">Milanesa de ternera o suprema, muzzarella, albahaca y tomates.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carnes -->
+            <div class="menu__category" id="tab-carnes">
+                <div class="menu__grid">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Bife de lomo</h3>
+                            <span class="menu__item-price">$30.000</span>
+                        </div>
+                        <p class="menu__item-desc">Con guarnición papas fritas / ensalada mixta / puré.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Lomo al verdeo</h3>
+                            <span class="menu__item-price">$30.000</span>
+                        </div>
+                        <p class="menu__item-desc">Medallón de lomo con salsa blanca y verdeo con guarnición.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Lomo a la pimienta</h3>
+                            <span class="menu__item-price">$30.000</span>
+                        </div>
+                        <p class="menu__item-desc">Medallón de lomo con salsa demi-glace y pimienta negra con guarnición.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Bife de chorizo</h3>
+                            <span class="menu__item-price">$25.000</span>
+                        </div>
+                        <p class="menu__item-desc">400 g con guarnición papas fritas / ensalada mixta / puré.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Bondiola a la mostaza</h3>
+                            <span class="menu__item-price">$18.000</span>
+                        </div>
+                        <p class="menu__item-desc">2 medallones con salsa de mostaza y batatas fritas.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Bondiola a la BBQ</h3>
+                            <span class="menu__item-price">$18.000</span>
+                        </div>
+                        <p class="menu__item-desc">Bondiola a la BBQ con dos medallones, acompañada de papas fritas y tomates cherry.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Pechuga grille</h3>
+                            <span class="menu__item-price">$15.000</span>
+                        </div>
+                        <p class="menu__item-desc">Pechuga de pollo cocida a la parrilla servida con una porción de arroz con cilantro y limón.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Costilla de cerdo a la riojana</h3>
+                            <span class="menu__item-price">$16.000</span>
+                        </div>
+                        <p class="menu__item-desc">Costillas de cerdo con morrón, cebolla, huevos fritos y papas españolas.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Pollo al verdeo</h3>
+                            <span class="menu__item-price">$18.000</span>
+                        </div>
+                        <p class="menu__item-desc">Pollo al verdeo acompañado de papas españolas.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Lomo al champignon</h3>
+                            <span class="menu__item-price">$30.000</span>
+                        </div>
+                        <p class="menu__item-desc">Medallón de lomo con salsa blanca y champignones con guarnición.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Filet de merluza con puré</h3>
+                            <span class="menu__item-price">$15.000</span>
+                        </div>
+                        <p class="menu__item-desc">Filet de merluza acompañado de puré de papas y rodajas de limón.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sándwich -->
+            <div class="menu__category" id="tab-sandwich">
+                <div class="menu__grid">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Sandwich de milanesa de carne</h3>
+                            <span class="menu__item-price">$15.000</span>
+                        </div>
+                        <p class="menu__item-desc">Pan / milanesa de ternera / lechuga y tomate.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Sandwich de milanesa de pollo</h3>
+                            <span class="menu__item-price">$15.000</span>
+                        </div>
+                        <p class="menu__item-desc">Pan / milanesa de pollo / lechuga y tomate.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ensaladas -->
+            <div class="menu__category" id="tab-ensaladas">
+                <div class="menu__grid">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Guacamole</h3>
+                            <span class="menu__item-price">$15.000</span>
+                        </div>
+                        <p class="menu__item-desc">Ensalada con mix de verdes, tomate cherry, pollo, cebolla morada, huevo, aceitunas y salsa guacamole.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Cesar con pollo</h3>
+                            <span class="menu__item-price">$11.000</span>
+                        </div>
+                        <p class="menu__item-desc">Ensalada César con pollo, mix de verdes, crutones, parmesano y aderezo César.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Ensalada 4 gusto</h3>
+                            <span class="menu__item-price">$6.500</span>
+                        </div>
+                        <p class="menu__item-desc">Ensalada con lechuga, tomate cherry, pepino, cebolla morada y zanahoria.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Postres -->
+            <div class="menu__category" id="tab-postres">
+                <div class="menu__grid">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Ensalada de frutas</h3>
+                            <span class="menu__item-price">$8.500</span>
+                        </div>
+                        <p class="menu__item-desc">Ensalada de frutas con manzana, frutilla, arándanos y frutas de estación.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Flan</h3>
+                            <span class="menu__item-price">$5.000</span>
+                        </div>
+                        <p class="menu__item-desc">Flan con crema y dulce de leche, acompañado de caramelo.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Budín de pan</h3>
+                            <span class="menu__item-price">$5.000</span>
+                        </div>
+                        <p class="menu__item-desc">Budín de pan con opción de agregar crema y dulce de leche.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bebidas -->
+            <div class="menu__category" id="tab-bebidas">
+                <div class="menu__grid">
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Cappuccino</h3>
+                            <span class="menu__item-price">$5.207</span>
+                        </div>
+                        <p class="menu__item-desc">Café espresso cremoso con leche vaporizada y espuma.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Latte</h3>
+                            <span class="menu__item-price">$5.207</span>
+                        </div>
+                        <p class="menu__item-desc">Café espresso combinado con leche vaporizada, creando una bebida suave y cremosa.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Chocolate</h3>
+                            <span class="menu__item-price">$5.207</span>
+                        </div>
+                        <p class="menu__item-desc">Bebida caliente a base de chocolate, perfecta para reconfortar.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Mocaccino</h3>
+                            <span class="menu__item-price">$5.786</span>
+                        </div>
+                        <p class="menu__item-desc">Café expreso, leche vaporizada y chocolate.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Perico</h3>
+                            <span class="menu__item-price">$2.893</span>
+                        </div>
+                        <p class="menu__item-desc">Bebida caliente de café con huevo, cebolla y tomate, típica de la región.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Aromática</h3>
+                            <span class="menu__item-price">$2.314</span>
+                        </div>
+                        <p class="menu__item-desc">Infusión aromática que combina hierbas y especias.</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Coca-Cola</h3>
+                            <span class="menu__item-price">$4.000</span>
+                        </div>
+                        <p class="menu__item-desc">354 ml</p>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-header">
+                            <h3 class="menu__item-name">Sprite Lima Limón</h3>
+                            <span class="menu__item-price">$4.000</span>
+                        </div>
+                        <p class="menu__item-desc">354 ml</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__cta">
+                <p>¿No encontrás lo que buscás?</p>
+                <a href="https://wa.me/5491168722702?text=Hola%2C%20quiero%20consultar%20por%20el%20men%C3%BA%20de%20Bautista" class="btn btn--primary">Consultar por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Producto Estrella -->
+    <section class="estrella" id="estrella">
+        <div class="container">
+            <div class="estrella__content anim-fade-in">
+                <span class="section-tag">La estrella de la casa</span>
+                <h2 class="estrella__title">El menú ejecutivo</h2>
+                <p class="estrella__text">
+                    Encontrá combos de lunes a viernes con entrada, plato principal, bebida y postre. 
+                    Calidad restaurant a precio bar de barrio. Por eso dicen que no tiene rival.
+                </p>
+                <div class="estrella__image">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWliHL1Z0dm5N9pey7qb9b0LjSQy0nxhcHq8x4OdUwL4sln-EUZNRJ1MCMuIyEzGllumSxAqAL35-hbb9FBEtlzuaIzw2cD_kG0pzdnAOzfii8L-GLzJOWKZCnLouMAzVW5Sw-IB=s1360-w1360-h1020-rw" alt="Mesa servida en BAUTISTA" loading="lazy">
+                </div>
+                <a href="https://wa.me/5491168722702?text=Hola%2C%20quiero%20consultar%20por%20el%20men%C3%BA%20ejecutivo%20de%20Bautista" class="btn btn--primary">Consultar menú ejecutivo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos -->
+    <section class="momentos" id="momentos">
+        <div class="container">
+            <div class="section-header anim-fade-in">
+                <span class="section-tag">Los momentos</span>
+                <h2 class="section-title">BAUTISTA en tu día</h2>
+            </div>
+            <div class="momentos__grid">
+                <div class="momento anim-fade-in-up">
+                    <div class="momento__image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAsnrIDcdAKbrgYKGZV7vazn_aT71vEKcFEKulaKolDR6_Q_4ylcIITKxXhaTq5MJS-vuWuxb7H0y_leAg3Gsy6fZ-ZJtMCk37DI6i65oB5Xqk5eukcOQqZiIgEfXm9tSjpqaz=s1360-w1360-h1020-rw" alt="Desayuno en BAUTISTA" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <h3 class="momento__title">El desayuno</h3>
+                        <p class="momento__time">Lunes a domingo · 7:00 a 11:00</p>
+                        <p class="momento__text">Cafecito, medialunas, tostados y perico. Arrancá el día con onda, sin apuro y con precio de barrio.</p>
+                    </div>
+                </div>
+                <div class="momento anim-fade-in-up" style="animation-delay: 0.1s">
+                    <div class="momento__image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBNzAwgaK8uWQaqaKVlWraMWseDb3bQLXwT1F93e5v5hcvpgXYUm6BGMowWM3zI3QCDh3OPWBENnd4QQSpwOTDkxc7L0icGKo2z7XIVpWK9OO1LN1gS4-si69iGjPtz6JDBugv=s1360-w1360-h1020-rw" alt="Almuerzo en BAUTISTA" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <h3 class="momento__title">El almuerzo</h3>
+                        <p class="momento__time">Lunes a domingo · 11:00 a 15:00</p>
+                        <p class="momento__text">Menú ejecutivo con todo incluido, pastas, milanesas y carnes. La mejor opción de la zona para comer bien.</p>
+                    </div>
+                </div>
+                <div class="momento anim-fade-in-up" style="animation-delay: 0.2s">
+                    <div class="momento__image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkJHCKQJt_FmUEuvT0EEVHu_i2YxpZtI8EhHVeNFCYDvONpO2mKHbUOrTr7hgekZQGftABI4pqla2g57-UUEmJGVuBvgV8_2ok1IM7xZ28BLarDicEpWoJQNV6qTjDWbbH0_Jdw=s1360-w1360-h1020-rw" alt="Golosinas en BAUTISTA" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <h3 class="momento__title">La merienda</h3>
+                        <p class="momento__time">Lunes a domingo · 15:00 a 19:00</p>
+                        <p class="momento__text">Facturas, budines, brownies y un chocolate caliente o un café con leche para frenar la baja.</p>
+                    </div>
+                </div>
+                <div class="momento anim-fade-in-up" style="animation-delay: 0.3s">
+                    <div class="momento__image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnio5sG0CGdQyj3q8KcWaxuE-xwEencSkEVGKJRxLPwxXWc1n-C5B3XxgeR0BM8a3MFrI_spECGtT0x05K97W7u8iOyPqM3kV2FuzzzBtyRhZ2qtYvV-7wS9307HgueO-4gIODCdw=s1360-w1360-h1020-rw" alt="Café en BAUTISTA" loading="lazy">
+                    </div>
+                    <div class="momento__content">
+                        <h3 class="momento__title">La cena</h3>
+                        <p class="momento__time">Lunes a domingo · 19:00 a 24:00</p>
+                        <p class="momento__text">Lomos, pastas, rabas y birra. El bar de siempre donde nadie te apura y todo está rico.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="section-header anim-fade-in">
+                <span class="section-tag">Galería</span>
+                <h2 class="section-title">Así se vive Bautista</h2>
+            </div>
+            <div class="galeria__grid anim-fade-in">
+                <div class="galeria__item galeria__item--large">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkt0jCIiaIcLMPXuEIzMRtii5Hwytdq4V_TZZbypAk1lOErrVFJFT77rgn-ZWNXF5e2WBaccSiKYUE2MtBh03j39wpF3yL8CXoIA4GbqMZTwmPa1BYGuUlDIiTTP-IF3CLELc-UW1VkWaBF=s1360-w1360-h1020-rw" alt="Interior de BAUTISTA" loading="lazy">
+                </div>
+                <div class="galeria__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnEvaxaih0UsxVY8XBAKdwivjl39gHYVceTvb73m6xV87Qpy6yvOcMZm4T8vz9jn9OOjwQoz3jbpsAXrWa2U_ailTOIweKcFOmf_vmGfr-EnWAn-IN5DEqAo8erNEmtjnvHJw=s1360-w1360-h1020-rw" alt="Facturas en BAUTISTA" loading="lazy">
+                </div>
+                <div class="galeria__item">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/73/a5/07/bautista-cafe-bar-barrio.jpg?w=1000&h=-1&s=1" alt="Fachada de BAUTISTA" loading="lazy">
+                </div>
+                <div class="galeria__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnEvaxaih0UsxVY8XBAKdwivjl39gHYVceTvb73m6xV87Qpy6yvOcMZm4T8vz9jn9OOjwQoz3jbpsAXrWa2U_ailTOIweKcFOmf_vmGfr-EnWAn-IN5DEqAo8erNEmtjnvHJw=s1360-w1360-h1020-rw" alt="Merienda en BAUTISTA" loading="lazy">
+                </div>
+                <div class="galeria__item galeria__item--wide">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/73/a5/04/bautista-cafe-bar-barrio.jpg?w=1000&h=-1&s=1" alt="Interior con personas en BAUTISTA" loading="lazy">
+                </div>
+                <div class="galeria__item">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBNzAwgaK8uWQaqaKVlWraMWseDb3bQLXwT1F93e5v5hcvpgXYUm6BGMowWM3zI3QCDh3OPWBENnd4QQSpwOTDkxc7L0icGKo2z7XIVpWK9OO1LN1gS4-si69iGjPtz6JDBugv=s1360-w1360-h1020-rw" alt="Café en BAUTISTA" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios" id="testimonios">
+        <div class="container">
+            <div class="section-header anim-fade-in">
+                <span class="section-tag">Opiniones</span>
+                <h2 class="section-title">Lo que dicen de nosotros</h2>
+                <div class="testimonios__rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-text">4.2</span>
+                    <span class="rating-count">· 623 reseñas de Google</span>
+                </div>
+            </div>
+            <div class="testimonios__grid">
+                <div class="testimonio anim-fade-in-up">
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">ML</div>
+                        <div class="testimonio__info">
+                            <h4 class="testimonio__name">Marcelo L.</h4>
+                            <span class="testimonio__date">hace 3 semanas</span>
+                        </div>
+                        <div class="testimonio__stars">★★★★★</div>
+                    </div>
+                    <p class="testimonio__text">Excelente atención, calidad y precios. El sándwich de lomo, las milanesas y papas (caseras, no las congeladas) un 10. Los menú ejecutivos no tienen rival, con bebida y postre. Un lujo.</p>
+                </div>
+                <div class="testimonio anim-fade-in-up" style="animation-delay: 0.1s">
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">CP</div>
+                        <div class="testimonio__info">
+                            <h4 class="testimonio__name">Carolina P.</h4>
+                            <span class="testimonio__date">hace 1 mes</span>
+                        </div>
+                        <div class="testimonio__stars">★★★★☆</div>
+                    </div>
+                    <p class="testimonio__text">Fuimos a desayunar tempranito y el ambiente estaba muy tranquilo. A pesar de estar sobre una avenida, es un lugar cómodo donde se puede conversar y desayunar sin ruido ni apuro.</p>
+                </div>
+                <div class="testimonio anim-fade-in-up" style="animation-delay: 0.2s">
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">RG</div>
+                        <div class="testimonio__info">
+                            <h4 class="testimonio__name">Roberto G.</h4>
+                            <span class="testimonio__date">hace 2 meses</span>
+                        </div>
+                        <div class="testimonio__stars">★★★★★</div>
+                    </div>
+                    <p class="testimonio__text">Muy rico y buena atención. Siempre voy y me gusta el lugar y la calidad de todo. El café con leche perfecto y las facturas recién salidas del horno.</p>
+                </div>
+                <div class="testimonio anim-fade-in-up" style="animation-delay: 0.3s">
+                    <div class="testimonio__header">
+                        <div class="testimonio__avatar">AF</div>
+                        <div class="testimonio__info">
+                            <h4 class="testimonio__name">Ana F.</h4>
+                            <span class="testimonio__date">hace 2 meses</span>
+                        </div>
+                        <div class="testimonio__stars">★★★★☆</div>
+                    </div>
+                    <p class="testimonio__text">Hay opciones de desayuno muy convenientes. La atención fue adecuada y correcta. Un buen lugar para empezar el día en Belgrano.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto__grid">
+                <div class="contacto__info anim-fade-in">
+                    <span class="section-tag">Contacto</span>
+                    <h2 class="section-title">Reservá tu mesa</h2>
+                    <p class="contacto__text">¿Querés venir a comer o tomar un café? Reservá por WhatsApp y te confirmamos al toque.</p>
+                    
+                    <div class="contacto__details">
+                        <div class="contacto__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div>
+                                <strong>Dirección</strong>
+                                <p>Monroe 2702, Belgrano Norte<br>Buenos Aires, Argentina</p>
+                            </div>
+                        </div>
+                        <div class="contacto__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p><a href="tel:+5491168722702">011 15-6872-2702</a></p>
+                            </div>
+                        </div>
+                        <div class="contacto__detail">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            <div>
+                                <strong>Horarios</strong>
+                                <p>Lunes a domingo<br>7:00 a 24:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contacto__social">
+                        <a href="https://www.instagram.com/bautistabelgrano_cafe?igsh=M3BsZmxwd3Y2aDZ5" target="_blank" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                            <span>@bautistabelgrano_cafe</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contacto__form anim-fade-in-up">
+                    <form id="reservationForm">
+                        <h3 class="form__title">Hacé tu reserva</h3>
+                        <div class="form__group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="phone">WhatsApp</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="Tu número">
+                            </div>
+                            <div class="form__group">
+                                <label for="date">Fecha</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="time">Hora</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Seleccionar</option>
+                                    <option value="7:00">7:00</option>
+                                    <option value="7:30">7:30</option>
+                                    <option value="8:00">8:00</option>
+                                    <option value="8:30">8:30</option>
+                                    <option value="9:00">9:00</option>
+                                    <option value="9:30">9:30</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="11:30">11:30</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="13:30">13:30</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="14:30">14:30</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="15:30">15:30</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="16:30">16:30</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="17:30">17:30</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="18:30">18:30</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="19:30">19:30</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="20:30">20:30</option>
+                                    <option value="21:00">21:00</option>
+                                    <option value="21:30">21:30</option>
+                                    <option value="22:00">22:00</option>
+                                    <option value="22:30">22:30</option>
+                                    <option value="23:00">23:00</option>
+                                </select>
+                            </div>
+                            <div class="form__group">
+                                <label for="guests">Personas</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="">Seleccionar</option>
+                                    <option value="1">1 persona</option>
+                                    <option value="2">2 personas</option>
+                                    <option value="3">3 personas</option>
+                                    <option value="4">4 personas</option>
+                                    <option value="5">5 personas</option>
+                                    <option value="6">6 personas</option>
+                                    <option value="7">7 personas</option>
+                                    <option value="8">8 personas</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form__group">
+                            <label for="message">Mensaje (opcional)</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Algún pedido especial o alergia alimentaria"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">
+                            Reservar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#hero" class="footer__logo">
+                        <span class="logo-b">B</span>
+                        <span class="logo-text">BAUTISTA</span>
+                    </a>
+                    <p class="footer__tagline">Bar & Café en Belgrano Norte. Desde la mañana hasta la noche.</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Navegación</h4>
+                    <a href="#menu">Menú</a>
+                    <a href="#galeria">Galería</a>
+                    <a href="#momentos">Momentos</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="footer__links">
+                    <h4>Contacto</h4>
+                    <a href="tel:+5491168722702">011 15-6872-2702</a>
+                    <a href="https://www.instagram.com/bautistabelgrano_cafe?igsh=M3BsZmxwd3Y2aDZ5" target="_blank">Instagram</a>
+                    <p>Monroe 2702, Belgrano Norte</p>
+                </div>
+            </div>
+            <div class="footer__map">
+                <iframe
+                    src="https://maps.google.com/maps?q=Monroe+2702+Belgrano+Norte+Buenos+Aires&output=embed"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 BAUTISTA Bar & Café. Todos los derechos reservados.</p>
+                <a href="https://tuweben3dias.com" target="_blank" class="footer__credit">tuweben3dias.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5491168722702?text=Hola%2C%20quiero%20hacer%20una%20consulta%20sobre%20Bautista" class="whatsapp-float" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
